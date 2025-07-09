@@ -18,6 +18,9 @@ void quick_sort(int q[],int l,int r){
 }
 
 int main(){
+	
+	printf("This is the version from main branch.\n");
+	
 	scanf("%d",&n);
 	for(int i=0;i<n;i++)scanf("%d",&a[i]);
 	quick_sort(a,0,n-1);
