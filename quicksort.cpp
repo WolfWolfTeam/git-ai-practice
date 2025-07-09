@@ -19,7 +19,7 @@ void quick_sort(int q[],int l,int r){
 
 int main(){
 	
-	printf("This is conflict from WolfWolfTeam.\n");
+printf("This is the merged version from both sides.\n");
 	
 	scanf("%d",&n);
 	for(int i=0;i<n;i++)scanf("%d",&a[i]);
